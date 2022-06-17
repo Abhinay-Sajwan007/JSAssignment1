@@ -113,3 +113,7 @@ Ques7. Explain DOM in your own word.
 The DOM is a W3C (World Wide Web Consortium) standard.
 it is the browser internal programmatic representation of the web page. and can be
 manipulated by languages like JS etc changing the page without changing HTML.
+
+
+
+
