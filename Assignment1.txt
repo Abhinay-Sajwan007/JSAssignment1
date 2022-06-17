@@ -1,4 +1,4 @@
-
+JAVASCRIPT ASSIGNMENT-1
 
 Ques1. Explain the use of JavaScript ( or What you can do using a JavaScript) ?
 
