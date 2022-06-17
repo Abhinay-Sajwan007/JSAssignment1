@@ -1,0 +1,115 @@
+
+
+Ques1. Explain the use of JavaScript ( or What you can do using a JavaScript) ?
+
+Javascript is used by programmers across the world to create dynamic and 
+interactive web content like applications and browsers.JavaScript helps the users 
+to build modern web applications to interact directly without reloading the page 
+every time.It is mainly used in web applications.
+
+
+Ques2. What is the difference between client-side and server-side?
+
+
+Client-side :
+1. The primary function of client-side scripting is to provide 
+	the requested output to the end-user. 
+2. Runs on the user’s computer(Web browsers)
+3. Reduces load on the server’s proccessing unit
+4. Languages used: HTML, CSS, JavaScript
+5. Client In client-side scripting, it does not include any interaction with the server, 
+   the ony interaction done is receiving the dtata which was requested.
+6. The client-side is used as the front end, where the user gets to see what we have browsed.
+7. It occurs when the browser process all the codes, and then it reacts according to the 
+	client’s query.
+    
+
+Server-side :
+1. The primary function of server-side scripting is to manipulate and give 
+	access to the required database as per request.  
+2. Runs on the web server
+3. Allows the server to provide dynamic websites tailored to the user. 
+   Increases the processing load on server.
+4. Languages used: PHP, ASP.net, Python
+5. It is used to retrieve and generate content for dynamic pages.It reduces client-side 
+   computation overhead.
+6. The server-side is used as a back-end where data is processed and is not visible to the 
+	client user. 
+7. It only acts after the client initiates the browsing request.    
+
+
+
+
+Ques3. What is Nodejs?
+
+Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs 
+on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers 
+use JavaScript to write command line tools and for server-side scripting — running scripts 
+server-side to produce dynamic web page content before the page is sent to the user's web browser.
+Node.js represents a "JavaScript everywhere" paradigm.
+
+
+
+
+Ques4 Explain Scope in JavaScript?
+
+JavaScript has 3 types of scope:
+
+	A. Block scope
+	B. Function scope
+	C. Global scope
+
+A.	Variables declared inside a { } block cannot be accessed from outside the block:
+	example : 
+	{
+	  let x = 2;
+	}
+	// x can NOT be used here
+
+	/* 
+	* Variables declared with the var keyword can NOT have block scope.
+	* Variables declared inside a { } block can be accessed from outside the block.
+	* Example
+	* {
+	*   var x = 2;
+	* }
+	* // x CAN be used here 
+	*/ 
+
+B.	Variables declared within a JavaScript function, become LOCAL to the function.
+	They can only be accessed from within the function.
+
+	example : 
+	// code here can NOT use carName
+
+	function myFunction() {
+	  let carName = "Volvo";
+	  // code here CAN use carName
+	}
+
+	// code here can NOT use carName
+
+
+C.	A global variable has Global Scope:
+	All scripts and functions on a web page can access it. 
+	
+	
+Ques5. JavaScript is asynchronous or synchronous.
+
+JavaScript is always synchronous and single-threaded. If you're executing a JavaScript 
+block of code on a page then no other JavaScript on that page will currently be executed.
+JavaScript is only asynchronous in the sense that it can make, for example, Ajax calls.
+
+
+
+
+Ques6. JavaScript is Single-threaded or Multi-threaded.
+JavaScript is a single-threaded language because while running code on a single thread, 
+it can be really easy to implement as we don’t have to deal with the complicated 
+scenarios that arise in the multi-threaded environment like deadlock.
+
+Ques7. Explain DOM in your own word.
+
+The DOM is a W3C (World Wide Web Consortium) standard.
+it is the browser internal programmatic representation of the web page. and can be
+manipulated by languages like JS etc changing the page without changing HTML.
